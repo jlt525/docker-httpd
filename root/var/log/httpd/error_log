@@ -1,0 +1,127 @@
+[Thu May 05 22:07:29.037927 2022] [suexec:notice] [pid 1] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.17.0.2. Set the 'ServerName' directive globally to suppress this message
+[Thu May 05 22:07:29.063732 2022] [lbmethod_heartbeat:notice] [pid 1] AH02282: No slotmem from mod_heartmonitor
+[Thu May 05 22:07:29.067314 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips SVN/1.7.14 configured -- resuming normal operations
+[Thu May 05 22:07:29.067334 2022] [core:notice] [pid 1] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Thu May 05 22:08:55.969214 2022] [authn_file:error] [pid 7] (13)Permission denied: [client 172.17.0.1:36382] AH01620: Could not open password file: /opt/repos/svn.passwd
+[Thu May 05 22:09:12.812774 2022] [authn_file:error] [pid 8] (13)Permission denied: [client 172.17.0.1:36384] AH01620: Could not open password file: /opt/repos/svn.passwd
+[Thu May 05 22:11:35.335748 2022] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Thu May 05 22:12:16.311458 2022] [suexec:notice] [pid 1] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.17.0.2. Set the 'ServerName' directive globally to suppress this message
+[Thu May 05 22:12:16.338275 2022] [lbmethod_heartbeat:notice] [pid 1] AH02282: No slotmem from mod_heartmonitor
+[Thu May 05 22:12:16.342215 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips SVN/1.7.14 configured -- resuming normal operations
+[Thu May 05 22:12:16.342238 2022] [core:notice] [pid 1] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Thu May 05 22:14:14.809677 2022] [authn_file:error] [pid 7] (13)Permission denied: [client 172.17.0.1:36386] AH01620: Could not open password file: /opt/repos/svn.passwd
+[Thu May 05 22:14:40.862153 2022] [authn_file:error] [pid 8] (13)Permission denied: [client 172.17.0.1:36388] AH01620: Could not open password file: /opt/repos/svn.passwd
+[Thu May 05 22:17:47.932381 2022] [authn_file:error] [pid 9] (13)Permission denied: [client 172.17.0.1:36390] AH01620: Could not open password file: /opt/repos/svn.passwd
+[Thu May 05 22:29:55.604503 2022] [autoindex:error] [pid 11] [client 172.17.0.1:36394] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Thu May 05 22:30:04.229653 2022] [dav:error] [pid 7] [client 172.17.0.1:36398] Could not fetch resource information.  [301, #0]
+[Thu May 05 22:30:04.229713 2022] [dav:error] [pid 7] (11)Resource temporarily unavailable: [client 172.17.0.1:36398] Requests for a collection must have a trailing slash on the URI.  [301, #0]
+[Thu May 05 22:36:59.821136 2022] [:error] [pid 10] [client 172.17.0.1:36406] could not begin a transaction  [500, #13]
+[Thu May 05 22:36:59.821148 2022] [:error] [pid 10] [client 172.17.0.1:36406] Can't open file '/opt/repos/svn/repo1/db/txn-current-lock': Permission denied  [500, #13]
+[Thu May 05 22:38:08.285721 2022] [:error] [pid 11] [client 172.17.0.1:36408] could not begin a transaction  [500, #13]
+[Thu May 05 22:38:08.285731 2022] [:error] [pid 11] [client 172.17.0.1:36408] Can't open file '/opt/repos/svn/repo1/db/txn-current-lock': Permission denied  [500, #13]
+[Thu May 05 22:38:46.373688 2022] [:error] [pid 35] [client 172.17.0.1:36410] could not begin a transaction  [500, #13]
+[Thu May 05 22:38:46.373698 2022] [:error] [pid 35] [client 172.17.0.1:36410] Can't open file '/opt/repos/svn/repo1/db/txn-current-lock': Permission denied  [500, #13]
+[Thu May 05 22:40:03.853119 2022] [:error] [pid 7] [client 172.17.0.1:36412] could not begin a transaction  [500, #13]
+[Thu May 05 22:40:03.853130 2022] [:error] [pid 7] [client 172.17.0.1:36412] Can't open file '/opt/repos/svn/repo1/db/txn-current-lock': Permission denied  [500, #13]
+[Thu May 05 22:41:16.121291 2022] [:error] [pid 8] [client 172.17.0.1:36414] could not begin a transaction  [500, #13]
+[Thu May 05 22:41:16.121315 2022] [:error] [pid 8] [client 172.17.0.1:36414] Can't create temporary file from template '/opt/repos/svn/repo1/db/svn-XXXXXX': Permission denied  [500, #13]
+[Thu May 05 22:41:30.488362 2022] [:error] [pid 9] [client 172.17.0.1:36416] could not begin a transaction  [500, #13]
+[Thu May 05 22:41:30.488372 2022] [:error] [pid 9] [client 172.17.0.1:36416] Can't create temporary file from template '/opt/repos/svn/repo1/db/svn-XXXXXX': Permission denied  [500, #13]
+[Thu May 05 22:42:49.636644 2022] [:error] [pid 10] [client 172.17.0.1:36418] could not begin a transaction  [500, #13]
+[Thu May 05 22:42:49.636671 2022] [:error] [pid 10] [client 172.17.0.1:36418] Can't create temporary file from template '/opt/repos/svn/repo1/db/svn-XXXXXX': Permission denied  [500, #13]
+[Thu May 05 22:43:30.427186 2022] [:error] [pid 11] [client 172.17.0.1:36420] could not begin a transaction  [500, #13]
+[Thu May 05 22:43:30.427215 2022] [:error] [pid 11] [client 172.17.0.1:36420] Can't create temporary file from template '/opt/repos/svn/repo1/db/svn-XXXXXX': Permission denied  [500, #13]
+[Thu May 05 22:43:54.384248 2022] [:error] [pid 35] [client 172.17.0.1:36422] could not begin a transaction  [500, #13]
+[Thu May 05 22:43:54.384257 2022] [:error] [pid 35] [client 172.17.0.1:36422] Can't create temporary file from template '/opt/repos/svn/repo1/db/svn-XXXXXX': Permission denied  [500, #13]
+[Thu May 05 22:44:06.827916 2022] [:error] [pid 7] [client 172.17.0.1:36424] could not begin a transaction  [500, #13]
+[Thu May 05 22:44:06.827944 2022] [:error] [pid 7] [client 172.17.0.1:36424] Can't create temporary file from template '/opt/repos/svn/repo1/db/svn-XXXXXX': Permission denied  [500, #13]
+[Thu May 05 22:47:13.081639 2022] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+[Thu May 05 22:47:19.264229 2022] [suexec:notice] [pid 1] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.17.0.2. Set the 'ServerName' directive globally to suppress this message
+[Thu May 05 22:47:19.291768 2022] [lbmethod_heartbeat:notice] [pid 1] AH02282: No slotmem from mod_heartmonitor
+[Thu May 05 22:47:19.295528 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips SVN/1.7.14 configured -- resuming normal operations
+[Thu May 05 22:47:19.295549 2022] [core:notice] [pid 1] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Thu May 05 22:47:26.762708 2022] [:error] [pid 7] [client 172.17.0.1:36426] could not begin a transaction  [500, #13]
+[Thu May 05 22:47:26.762737 2022] [:error] [pid 7] [client 172.17.0.1:36426] Can't create temporary file from template '/opt/repos/svn/repo1/db/svn-XXXXXX': Permission denied  [500, #13]
+[Thu May 05 22:48:39.570086 2022] [:error] [pid 8] [client 172.17.0.1:36428] could not begin a transaction  [500, #13]
+[Thu May 05 22:48:39.570104 2022] [:error] [pid 8] [client 172.17.0.1:36428] Can't set permissions on '/opt/repos/svn/repo1/db/svn-3q7oW7': Permission denied  [500, #13]
+[Thu May 05 22:49:17.114547 2022] [:error] [pid 9] [client 172.17.0.1:36432] could not begin a transaction  [500, #13]
+[Thu May 05 22:49:17.114573 2022] [:error] [pid 9] [client 172.17.0.1:36432] Can't move '/opt/repos/svn/repo1/db/svn-p7a1fY' to '/opt/repos/svn/repo1/db/txn-current': Permission denied  [500, #13]
+[Thu May 05 22:49:31.043271 2022] [:error] [pid 10] [client 172.17.0.1:36434] could not begin a transaction  [500, #13]
+[Thu May 05 22:49:31.043287 2022] [:error] [pid 10] [client 172.17.0.1:36434] Can't move '/opt/repos/svn/repo1/db/svn-BeP2eF' to '/opt/repos/svn/repo1/db/txn-current': Permission denied  [500, #13]
+[Thu May 05 22:49:57.322070 2022] [:error] [pid 11] [client 172.17.0.1:36436] could not begin a transaction  [500, #13]
+[Thu May 05 22:49:57.322109 2022] [:error] [pid 11] [client 172.17.0.1:36436] Can't move '/opt/repos/svn/repo1/db/svn-MyUbMX' to '/opt/repos/svn/repo1/db/txn-current': Permission denied  [500, #13]
+[Thu May 05 22:50:25.514589 2022] [:error] [pid 12] [client 172.17.0.1:36438] could not begin a transaction  [500, #13]
+[Thu May 05 22:50:25.514603 2022] [:error] [pid 12] [client 172.17.0.1:36438] Can't move '/opt/repos/svn/repo1/db/svn-DsGXXl' to '/opt/repos/svn/repo1/db/txn-current': Permission denied  [500, #13]
+[Thu May 05 22:50:46.856934 2022] [:error] [pid 7] [client 172.17.0.1:36440] could not begin a transaction  [500, #13]
+[Thu May 05 22:50:46.856968 2022] [:error] [pid 7] [client 172.17.0.1:36440] Can't create directory '/opt/repos/svn/repo1/db/transactions/0-0.txn': Permission denied  [500, #13]
+[Thu May 05 22:51:53.554341 2022] [dav:error] [pid 8] [client 172.17.0.1:36442] Unable to PUT new contents for /svn/repo1/!svn/txr/0-1/testfile.  [403, #0]
+[Thu May 05 22:51:53.554350 2022] [dav:error] [pid 8] [client 172.17.0.1:36442] Could not create file within the repository.  [500, #13]
+[Thu May 05 22:51:53.554352 2022] [dav:error] [pid 8] [client 172.17.0.1:36442] Can't open file '/opt/repos/svn/repo1/db/transactions/0-1.txn/changes': Permission denied  [500, #13]
+[Thu May 05 22:51:53.567282 2022] [dav:error] [pid 9] [client 172.17.0.1:36444] Could not DELETE /svn/repo1/!svn/txn/0-1.  [500, #0]
+[Thu May 05 22:51:53.567292 2022] [dav:error] [pid 9] [client 172.17.0.1:36444] could not abort transaction.  [500, #13]
+[Thu May 05 22:51:53.567294 2022] [dav:error] [pid 9] [client 172.17.0.1:36444] Transaction '0-1' cleanup failed  [500, #13]
+[Thu May 05 22:51:53.567296 2022] [dav:error] [pid 9] [client 172.17.0.1:36444] Can't remove directory '/opt/repos/svn/repo1/db/transactions/0-1.txn': Permission denied  [500, #13]
+[Thu May 05 22:54:00.495700 2022] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Thu May 05 22:56:11.997772 2022] [suexec:notice] [pid 1] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.17.0.2. Set the 'ServerName' directive globally to suppress this message
+[Thu May 05 22:56:12.026924 2022] [lbmethod_heartbeat:notice] [pid 1] AH02282: No slotmem from mod_heartmonitor
+[Thu May 05 22:56:12.030473 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips SVN/1.7.14 configured -- resuming normal operations
+[Thu May 05 22:56:12.030504 2022] [core:notice] [pid 1] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Thu May 05 23:49:53.529707 2022] [:error] [pid 11] (20014)Internal error: [client 172.17.0.1:36464] '/opt/repos/svn/repo2/db/format' contains invalid filesystem format option 'addressing logical', referer: http://172.17.0.2:8080/svn/
+[Thu May 05 23:49:53.529736 2022] [dav:error] [pid 11] [client 172.17.0.1:36464] Could not fetch resource information.  [500, #0], referer: http://172.17.0.2:8080/svn/
+[Thu May 05 23:49:53.529741 2022] [dav:error] [pid 11] [client 172.17.0.1:36464] Could not open the requested SVN filesystem  [500, #125006], referer: http://172.17.0.2:8080/svn/
+[Thu May 05 23:49:53.529744 2022] [dav:error] [pid 11] [client 172.17.0.1:36464] Could not open the requested SVN filesystem  [500, #125006], referer: http://172.17.0.2:8080/svn/
+[Thu May 05 23:55:38.434146 2022] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+[Fri May 06 00:10:51.930311 2022] [suexec:notice] [pid 1] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.17.0.2. Set the 'ServerName' directive globally to suppress this message
+[Fri May 06 00:10:51.955434 2022] [lbmethod_heartbeat:notice] [pid 1] AH02282: No slotmem from mod_heartmonitor
+[Fri May 06 00:10:51.959692 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips SVN/1.14.1 configured -- resuming normal operations
+[Fri May 06 00:10:51.959712 2022] [core:notice] [pid 1] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Fri May 06 00:11:56.774859 2022] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+[Fri May 06 00:32:00.077064 2022] [suexec:notice] [pid 1] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.17.0.2. Set the 'ServerName' directive globally to suppress this message
+[Fri May 06 00:32:00.213673 2022] [lbmethod_heartbeat:notice] [pid 1] AH02282: No slotmem from mod_heartmonitor
+[Fri May 06 00:32:00.216885 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips SVN/1.14.1 configured -- resuming normal operations
+[Fri May 06 00:32:00.216905 2022] [core:notice] [pid 1] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Fri May 06 01:06:18.263772 2022] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+[Fri May 06 01:06:34.897157 2022] [suexec:notice] [pid 1] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.17.0.2. Set the 'ServerName' directive globally to suppress this message
+[Fri May 06 01:06:34.920518 2022] [lbmethod_heartbeat:notice] [pid 1] AH02282: No slotmem from mod_heartmonitor
+[Fri May 06 01:06:34.923681 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips SVN/1.14.1 configured -- resuming normal operations
+[Fri May 06 01:06:34.923703 2022] [core:notice] [pid 1] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Fri May 06 01:06:41.526446 2022] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+[Fri May 06 01:06:48.893679 2022] [suexec:notice] [pid 1] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.17.0.2. Set the 'ServerName' directive globally to suppress this message
+[Fri May 06 01:06:48.916497 2022] [lbmethod_heartbeat:notice] [pid 1] AH02282: No slotmem from mod_heartmonitor
+[Fri May 06 01:06:48.919567 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips SVN/1.14.1 configured -- resuming normal operations
+[Fri May 06 01:06:48.919585 2022] [core:notice] [pid 1] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Fri May 06 01:06:55.124633 2022] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+[Mon May 09 12:31:06.555352 2022] [suexec:notice] [pid 1] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.17.0.2. Set the 'ServerName' directive globally to suppress this message
+[Mon May 09 12:31:06.616175 2022] [lbmethod_heartbeat:notice] [pid 1] AH02282: No slotmem from mod_heartmonitor
+[Mon May 09 12:31:06.620982 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips SVN/1.14.1 configured -- resuming normal operations
+[Mon May 09 12:31:06.621003 2022] [core:notice] [pid 1] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Mon May 09 12:31:32.860841 2022] [autoindex:error] [pid 7] [client 172.17.0.1:36558] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Mon May 09 12:34:22.620810 2022] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+[Mon May 09 12:59:06.719116 2022] [suexec:notice] [pid 1] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.17.0.2. Set the 'ServerName' directive globally to suppress this message
+[Mon May 09 12:59:06.745056 2022] [lbmethod_heartbeat:notice] [pid 1] AH02282: No slotmem from mod_heartmonitor
+[Mon May 09 12:59:06.748551 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips SVN/1.14.1 configured -- resuming normal operations
+[Mon May 09 12:59:06.748591 2022] [core:notice] [pid 1] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Mon May 09 12:59:11.368793 2022] [core:error] [pid 7] (13)Permission denied: [client 172.17.0.1:36570] AH00035: access to /index.html denied (filesystem path '/var/www/html/index.html') because search permissions are missing on a component of the path
+[Mon May 09 12:59:27.923423 2022] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+[Mon May 09 12:59:56.340364 2022] [suexec:notice] [pid 1] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.17.0.2. Set the 'ServerName' directive globally to suppress this message
+[Mon May 09 12:59:56.366180 2022] [lbmethod_heartbeat:notice] [pid 1] AH02282: No slotmem from mod_heartmonitor
+[Mon May 09 12:59:56.369999 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips SVN/1.14.1 configured -- resuming normal operations
+[Mon May 09 12:59:56.370019 2022] [core:notice] [pid 1] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Mon May 09 13:01:17.839820 2022] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+[Mon May 09 13:05:59.243478 2022] [suexec:notice] [pid 1] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.17.0.2. Set the 'ServerName' directive globally to suppress this message
+[Mon May 09 13:05:59.269535 2022] [lbmethod_heartbeat:notice] [pid 1] AH02282: No slotmem from mod_heartmonitor
+[Mon May 09 13:05:59.273398 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips SVN/1.14.1 configured -- resuming normal operations
+[Mon May 09 13:05:59.273420 2022] [core:notice] [pid 1] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Mon May 09 18:08:51.802439 2022] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
