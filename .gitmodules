@@ -1,3 +1,0 @@
-[submodule "wasm_test"]
-	path = wasm_test
-	url = ./wasm_test
